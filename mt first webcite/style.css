@@ -1,0 +1,174 @@
+body{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #E81C62;
+}
+
+.logo_unail {
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.menu {
+    margin-left: 100px;
+    align-items: stretch;
+    
+}
+
+.menu_product,.menu_main,.menu_about,.menu_contact {
+    padding-left: 80px;
+}
+
+.mmenu {
+    font-weight: bold;
+}
+
+.big_unail {
+    font-size:200px;
+    text-align: center;
+
+}
+
+.button_about {
+    position: relative;
+    left: 50%;
+    bottom: 120px;
+    transform: translate(-50%, 0);
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    font-size: medium;
+    font-weight: 900;
+    font-style: normal;
+    border-color: black;
+}
+
+.button_about:hover {
+    background-color: #1A1A1A;
+    color: #E81C62;
+    border-color: #1A1A1A;
+}
+
+/* Страница О НАС */
+
+.big_about {
+    font-size: 170px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.line_about {
+    width: 70px;
+    height: 10px;
+    background-color: #E81C62;
+    border-color: #E81C62;
+    position: relative;
+    left: 50%;
+    bottom: 180px;
+    transform: translate(-50%, 0);
+}
+/* заснування О НАС */
+.zasnuvannya_main {
+    display: block;
+}
+
+.about_zasnuvannya {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h2_zasnuvannya {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main_about {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.p_about_zasnuvannya {
+    padding-left: 60px;
+}
+/* продукт О НАС */
+.product_main {
+    display: block;
+    padding-top: 100px;
+}
+
+.about_product {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.h2_product {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.p_about_product {
+    padding-right: 60px;
+}
+
+/* наша миссия О НАС */
+.mission_main {
+    display: block;
+    padding-top: 100px;
+}
+
+.about_mission {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h2_mission {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.p_about_mission {
+    padding-left: 60px;
+}
+
+.footer_about {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.mail_about {
+    font-weight: 900;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contactt {
+    display: block;
+}
+
+.sale,.question {
+    font-size: 30px
+}
+
+.mail,.tel {
+    font-weight: 900;
+}
